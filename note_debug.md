@@ -1,10 +1,10 @@
-## Magisk 95846c94-delta DEBUG by HuskyDG
+## Magisk dc9b8077-delta DEBUG by HuskyDG
 
 > The Debug version has a more detailed log than the Canary version
 
 ### What is new?
 
-- Bump version code to `25102`
+- Fix lag when pressing "Disable Magisk" option
 
 
 ### Diff from official

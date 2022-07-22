@@ -1,8 +1,8 @@
-## Magisk d2f6ccbd-delta by HuskyDG
+## Magisk dc9b8077-delta by HuskyDG
 
 ### What is new?
 
-- Bump version code to `25201`
+- Fix lag when pressing "Disable Magisk" option
 
 ### Diff from official
 
