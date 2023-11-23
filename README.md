@@ -1,6 +1,4 @@
-# Magisk Delta
-
-This repo hosts Magisk delta related files
+# Kitsune Mask
 
 ![Delta](https://user-images.githubusercontent.com/84650617/222942594-63336f63-6a26-492e-a1d1-a356b5f777b3.png)
 
@@ -37,6 +35,8 @@ This repo hosts Magisk delta related files
 
 - Magisk author: [topjohnwu](https://github.com/topjohnwu/magisk)
 - Magisk contributors: [vvb2060](https://github.com/vvb2060), [yujincheng08](https://github.com/yujincheng08), [RikkaW](https://github.com/RikkaW), [canyie](https://github.com/canyie)
+- [Ptrace init based Zygisk](https://github.com/HuskyDG/Magisk/commits/ptrace-zygisk), we are using part of code from [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext) writing by [Dr-TSNG](https://github.com/Dr-TSNG/ZygiskNext) and [5ec1cff](https://github.com/5ec1cff). Credits was adding to code as well. 
+- ZygiskNext is an open source project licensed under GPL-v3.0, which provides standalone implementation of Zygisk and Zygisk API support for KernelSU and a replacement of Magisk's built-in Zygisk.
 
 ## License
 
