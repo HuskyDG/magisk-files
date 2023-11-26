@@ -18,6 +18,10 @@
 - [Download Debug](https://huskydg.github.io/magisk-files/app-debug.apk) 
 - [Changelog](https://github.com/HuskyDG/magisk-files/blob/main/note.md)
 
+#### Report bugs
+
+- Switch to debug build before report any issues. Insta-close your issues if you don't provide anything useful.
+
 #### Source code
 
 - The `source-code.zip` is published along with release build at <https://github.com/HuskyDG/magisk-files/releases>
