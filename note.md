@@ -1,21 +1,22 @@
-## R6561D823-kitsune
+## R656426A5-kitsune
 
-- Revert `resetprop` changes
-- Use `magiskd` to mount for SuList instead of relying on switching zygote's context `u:r:zygote:s0` to `u:r:magisk:s0`
+**WARNING! You are using an unofficial version of Magisk that is not officially supported by the Magisk author. This version may contain unstable modifications that could harm your device or compromise your security. Do not report any issues or request any help from official Magisk channels. If you use this version but do not know this is an unofficial version, please switch to the official Magisk at github.com/topjohnwu/Magisk**
+
+- Use unix domain socket communication
+- Always inject magisk bins to `/system/bin`
+- Always use `/sbin` as the magisk tmp when using the magisk installation method into `/system`
 
 ### Diffs to official Magisk
 
-- [Zygisk] Inject zygote by ptrace init, like [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext) project
-- [General] Use MagiskHide to hide when Zygisk is off
+- [Zygisk] Inject zygote by ptrace init (*)
+- [General] Use MagiskHide to hide when Zygisk is disabled
 - [General] Support mounting in pre-init for modules
-- [General] Support install Magisk into system partition (for emulators)
+- [General] Support install Magisk into `/system` (for emulators)
 
 ### Credits
-- [Ptrace init based Zygisk](https://github.com/HuskyDG/Magisk/commits/ptrace-zygisk): Kitsune Mask is using part of code from [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext) writing by [Dr-TSNG](https://github.com/Dr-TSNG/ZygiskNext) and [5ec1cff](https://github.com/5ec1cff). Credits to author was adding to code as well. 
-- ZygiskNext is an open source project licensed under GPL-v3.0, which provides standalone implementation of Zygisk and Zygisk API support for KernelSU and a replacement of Magisk's built-in Zygisk.
+
+- (*) Kitsune Mask is using some code from [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext), it is an open source project written by [Dr-TSNG](https://github.com/Dr-TSNG/ZygiskNext) and [5ec1cff](https://github.com/5ec1cff) and licensed under GPL-version 3.0. [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext) offers a standalone implementation of Zygisk and Zygisk API support for KernelSU and replaces Magisk’s built-in Zygisk.
 
 ### Magisk upstream level
 
 - HEAD commit: ecb31ee
-
-> This version might have bugs, please using Official Magisk instead

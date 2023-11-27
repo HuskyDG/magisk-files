@@ -10,21 +10,20 @@
 
 ## Download
 
+### Stable
+
+> Not stable yet
+
 ### Canary / Debug
 
 #### Download
 
-- [Download Canary](https://huskydg.github.io/magisk-files/app-release.apk)
-- [Download Debug](https://huskydg.github.io/magisk-files/app-debug.apk) 
+> Switch to debug build before report any issues
+
+- [Canary (app-release.apk)](https://huskydg.github.io/magisk-files/app-release.apk)
+- [Debug (app-debug.apk)](https://huskydg.github.io/magisk-files/app-debug.apk) 
+- [Source code](https://github.com/HuskyDG/magisk-files/releases/latest) 
 - [Changelog](https://github.com/HuskyDG/magisk-files/blob/main/note.md)
-
-#### Report bugs
-
-- Switch to debug build before report any issues. Insta-close your issues if you don't provide anything useful.
-
-#### Source code
-
-- The `source-code.zip` is published along with release build at <https://github.com/HuskyDG/magisk-files/releases>
 
 ## Donate me
 
@@ -39,8 +38,7 @@
 
 - Magisk author: [topjohnwu](https://github.com/topjohnwu/magisk)
 - Magisk contributors: [vvb2060](https://github.com/vvb2060), [yujincheng08](https://github.com/yujincheng08), [RikkaW](https://github.com/RikkaW), [canyie](https://github.com/canyie)
-- [Ptrace init based Zygisk](https://github.com/HuskyDG/Magisk/commits/ptrace-zygisk), we are using part of code from [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext) writing by [Dr-TSNG](https://github.com/Dr-TSNG/ZygiskNext) and [5ec1cff](https://github.com/5ec1cff). Credits was adding to code as well. 
-- ZygiskNext is an open source project licensed under GPL-v3.0, which provides standalone implementation of Zygisk and Zygisk API support for KernelSU and a replacement of Magisk's built-in Zygisk.
+- Zygisk implementation by ptrace: [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext),  [Dr-TSNG](https://github.com/Dr-TSNG/ZygiskNext) and [5ec1cff](https://github.com/5ec1cff)
 
 ## License
 
