@@ -22,7 +22,7 @@
 
 - [Canary (app-release.apk)](https://huskydg.github.io/magisk-files/app-release.apk)
 - [Debug (app-debug.apk)](https://huskydg.github.io/magisk-files/app-debug.apk) 
-- [Source code](https://github.com/HuskyDG/magisk) 
+- [Source code](https://github.com/HuskyDG/magisk-files/releases/latest) 
 - [Changelog](https://github.com/HuskyDG/magisk-files/blob/main/note.md)
 
 ## Donate me
