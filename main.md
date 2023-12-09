@@ -25,6 +25,10 @@
 - [Source code](https://github.com/HuskyDG/magisk) 
 - [Changelog](https://github.com/HuskyDG/magisk-files/blob/main/note.md)
 
+### Other version
+
+- [Releases page](https://github.com/HuskyDG/magisk-files/releases)
+
 ## How to install
 
 ### How do I install Kitsune Mask from scratch?
