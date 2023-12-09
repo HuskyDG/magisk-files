@@ -10,9 +10,9 @@
 
 ## Download
 
-### Stable
+### Stable / Beta
 
-> Not stable yet
+- [26.4 Stable](https://github.com/HuskyDG/download/raw/main/magisk/26.4-kitsune.apk)
 
 ### Canary / Debug
 
