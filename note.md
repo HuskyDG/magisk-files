@@ -1,8 +1,8 @@
-## R6578316E-kitsune (26402)
+## R6578883F-kitsune (26402)
 
 **💣 CAUTION! You are using a version of Magisk that is not approved by the official Magisk developer. This version may have risky changes that could damage your device or expose your data. Do not ask for any support or report any problems to the official Magisk channels. If you are using this version without knowing it is unofficial, please switch to the official Magisk at [github.com/topjohnwu/Magisk](https://github.com/topjohnwu/Magisk). USE THIS AT YOUR OWN RISK!**
 
-- Upsteam to f7e4716 (26402)
+- Downgrade upsteam to d49b02b (26402)
 
 ### Diffs to official Magisk
 
@@ -15,4 +15,4 @@
 
 ### Magisk upstream level
 
-- HEAD commit: f7e4716
+- HEAD commit: d49b02b
