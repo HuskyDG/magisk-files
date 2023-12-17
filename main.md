@@ -18,7 +18,7 @@
 
 #### Download
 
-> Switch to debug build before report any issues
+> Contact to deadboltsx303@gmail.com if you have any issues. Only accept bugreports from **LASTEST DEBUG** build
 
 - [Canary (app-release.apk)](https://huskydg.github.io/magisk-files/app-release.apk)
 - [Debug (app-debug.apk)](https://huskydg.github.io/magisk-files/app-debug.apk) 
