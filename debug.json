@@ -1,0 +1,12 @@
+{
+  "magisk": {
+    "version": "R65976974-kitsune",
+    "versionCode": "26404",
+    "link": "https://github.com/HuskyDG/magisk-files/raw/main/app-debug.apk",
+    "note": "https://github.com/HuskyDG/magisk-files/raw/main/note.md"
+  },
+  "stub": {
+    "versionCode": "38",
+    "link": "https://github.com/HuskyDG/magisk-files/raw/main/stub-debug.apk"
+  }
+}

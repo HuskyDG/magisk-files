@@ -1,0 +1,12 @@
+{
+  "magisk": {
+    "version": "26.4-kitsune-2",
+    "versionCode": "26400",
+    "link": "https://github.com/HuskyDG/download/raw/main/magisk/26.4-kitsune-2.apk",
+    "note": "https://github.com/HuskyDG/download/raw/main/magisk/26.4-kitsune-2.md"
+  },
+  "stub": {
+    "versionCode": "38",
+    "link": "https://github.com/HuskyDG/download/raw/main/magisk/stub-release.apk"
+  }
+}
