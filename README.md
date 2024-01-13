@@ -1,6 +1,6 @@
 # Kitsune Mask
 
-![Delta](https://user-images.githubusercontent.com/84650617/222942594-63336f63-6a26-492e-a1d1-a356b5f777b3.png)
+![logo](https://github.com/HuskyDG/magisk-files/blob/008334d1b8f5236219c5f79e7839f5e50538b0b9/images/logo.png)
 
 ## Introduction
 
