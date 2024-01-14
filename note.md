@@ -1,10 +1,6 @@
-## R659E930C-kitsune (26404)
+## R65A24840-kitsune (26404)
 
-- Update resetprop to avoid increasing serial counter
-- Mounting module files to system no longer need mirrors
-- Add biometric authentication back
-- Check full path of `init.rc`
-- Grant root to shell by default (for debug build)
+- Update resetprop to avoid increasing serial counter for read-only properties
 
 If you want to read changelog of previous builds, please visit [Release page](https://github.com/HuskyDG/magisk-files/releases)
 
@@ -19,7 +15,7 @@ Kitsune 26404+ has changed the mounting `su` location from `/system/bin` to `/ap
 - [Zygisk] Added support for GrepheneOS Android 14, a privacy and security focused mobile OS with Android app compatibility. This is because the official Magisk does not support it.
 - [General] Restored support for devices with no selinux support, which was removed by the official Magisk. This allows users to use Magisk on devices that do not have selinux enabled in kernel.
 - [Module] Cancel the writable exception for `/system/etc/hosts`
-- [General] Update resetprop to avoid increasing serial counter
+- [General] Update resetprop to avoid increasing serial counter for read-only properties
 - [Module] Mounting module files to system no longer need mirrors
 - [App] Add biometric authentication back
 - [General] Check full path of `init.rc`
