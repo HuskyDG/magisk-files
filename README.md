@@ -22,6 +22,8 @@
 
 #### Kitsune Lite
 
+> Lite version has no Zygisk built-in or supported
+
 - [Canary (app-release-lite.apk)](https://huskydg.github.io/magisk-files/app-release-lite.apk)
 - [Debug (app-debug-lite.apk)](https://huskydg.github.io/magisk-files/app-debug-lite.apk) 
 - [Changelog](https://github.com/HuskyDG/magisk-files/blob/main/note-lite.md) 
