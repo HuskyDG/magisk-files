@@ -26,7 +26,7 @@
 
 - [Canary (app-release-lite.apk)](https://huskydg.github.io/magisk-files/app-release-lite.apk)
 - [Debug (app-debug-lite.apk)](https://huskydg.github.io/magisk-files/app-debug-lite.apk) 
-- [Changelog](https://github.com/HuskyDG/magisk-files/blob/main/note-lite.md) 
+- [Changelog](https://github.com/HuskyDG/magisk-files/blob/main/note_lite.md) 
 
 
 ### Other version
