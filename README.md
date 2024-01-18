@@ -1,8 +1,4 @@
-# Kitsune Mask
-
-![Delta](https://user-images.githubusercontent.com/84650617/222942594-63336f63-6a26-492e-a1d1-a356b5f777b3.png)
-
-## Introduction
+# Kitsune Magisk
 
 **This is not an officially supported [topjohnwu](https://github.com/topjohnwu) project**. 
 
@@ -12,17 +8,24 @@
 
 ### Stable / Beta
 
-- [26.4 Stable](https://github.com/HuskyDG/download/raw/main/magisk/26.4-kitsune.apk)
+- [Kitsune Mask v26.4 Stable](https://github.com/HuskyDG/download/raw/main/magisk/26.4-kitsune.apk)
 
 ### Canary / Debug
 
-#### Download
+> We only accept bugreports from **LASTEST DEBUG** build. Invalid bugreports will be closed instantly.
 
-> Contact to deadboltsx303@gmail.com if you have any issues. Only accept bugreports from **LASTEST DEBUG** build
+#### Kitsune Mask
 
 - [Canary (app-release.apk)](https://huskydg.github.io/magisk-files/app-release.apk)
 - [Debug (app-debug.apk)](https://huskydg.github.io/magisk-files/app-debug.apk) 
 - [Changelog](https://github.com/HuskyDG/magisk-files/blob/main/note.md) 
+
+#### Kitsune Lite
+
+- [Canary (app-release-lite.apk)](https://huskydg.github.io/magisk-files/app-release-lite.apk)
+- [Debug (app-debug-lite.apk)](https://huskydg.github.io/magisk-files/app-debug-lite.apk) 
+- [Changelog](https://github.com/HuskyDG/magisk-files/blob/main/note-lite.md) 
+
 
 ### Other version
 
@@ -89,6 +92,7 @@ Patching ramdisk is not feasible for the emulator, as the ramdisk partition has 
 
 - Magisk author: [topjohnwu](https://github.com/topjohnwu/magisk)
 - Magisk contributors: [vvb2060](https://github.com/vvb2060), [yujincheng08](https://github.com/yujincheng08), [RikkaW](https://github.com/RikkaW), [canyie](https://github.com/canyie)
+- Magisk Hide in whitelist mode: [MagiskLite](https://t.me/magisklite)
 - Zygisk implementation by ptrace: [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext),  [Dr-TSNG](https://github.com/Dr-TSNG/ZygiskNext) and [5ec1cff](https://github.com/5ec1cff)
 
 ## License
