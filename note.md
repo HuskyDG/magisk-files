@@ -1,6 +1,6 @@
 ## R65B8FE82-kitsune (26404)
 
-- Do not reset peer group of `/apex`, which introduce abnormal environment detection
+- Do not reset peer group of `/apex`, to avoid introducing abnormal environment detection
 
 If you want to read changelog of previous builds, please visit [Release page](https://github.com/HuskyDG/magisk-files/releases)
 
