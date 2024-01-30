@@ -1,6 +1,6 @@
-## R65A24840-kitsune (26404)
+## R65B8FE82-kitsune (26404)
 
-- Update resetprop to avoid increasing serial counter for read-only properties
+- Do not reset peer group of `/apex`, which introduce abnormal environment detection
 
 If you want to read changelog of previous builds, please visit [Release page](https://github.com/HuskyDG/magisk-files/releases)
 
