@@ -69,23 +69,17 @@ This method is only for ROMs with Permissive SELinux mode or Enforcing SELinux w
 
 ### How to install Magisk into Android emulator
 
-Patching ramdisk is not feasible for the emulator, as the ramdisk partition has insufficient space for Magisk binaries. The following emulators and Android-x86 projects have been tested: NoxPlayer, LDPlayer, MEmu, BlissOS, and PrimeOS.
+Patching ramdisk is not feasible for the emulator, as the ramdisk partition has insufficient space for Magisk binaries.
+The following emulators and Android-x86 projects have been tested: NoxPlayer, LDPlayer, MEmu, BlissOS, and PrimeOS.
 
 #### Step-by-step to install Magisk into an emulator like NoxPlayer, LDPlayer, MemuPlayer, etc
 
-1. Enable Root access in emulator settings.
-2. Install and open Kitsune Mask.
-3. Grant root access to Kitsune Mask, click "Install" under the Magisk field, and use "Direct Install into system partition" option instead of "Direct Install" option. (If you don't see this option, close and re-open Kitsune Mask app.) Don't restart now!
-4. Backup built-in `su` (`/system/bin/su` and `/system/xbin/su`) and delete them (in case you want to uninstall Magisk and restore to built-in `su`), then reboot. Because emulators like LDPlayer will remove any `su` after disabling ROOT from settings, **DO NOT** disable Root access in emulator settings.
-5. Enjoy Magisk!
+1. Enable Root access in emulator settings and writable system image disk (if available)
+2. Install and open Kitsune Magisk app.
+3. Grant root access to Kitsune Mask, click "Install" under the Magisk field, and use "Direct Install into system partition" option instead of "Direct Install" option. (If you don't see this option, close and re-open Kitsune Mask app.)
+4. Enjoy Magisk feature with Kitsune Magisk!
 
-#### Step-by-step instructions for installing Magisk on Bluestacks
-
-1. Download Bluestacks Tweaker [here](https://bstweaker.ru).
-2. Use Bluestacks Tweaker and click "Unlock" to unlock Bluestacks instance, and then launch it. Otherwise, you can't install Magisk.
-3. When the instance starts up successfully, click "Patch" to open root access, install Kitsune Mask, and execute the "Direct Install into system partition" action.
-4. When you are done, click "UnPatch" and then restart the instance.
-5. Enjoy Magisk!
+> For some reasons, closing Root access in emulator settings will intentionally removing Magisk `su`, so do not switch off Root access.
 
 ## Donate me
 
