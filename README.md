@@ -16,13 +16,15 @@
 
 #### Kitsune Mask
 
+> Kitsune Mask has MagiskHide, SuList and new Zygisk loading mechanism
+
 - [Canary (app-release.apk)](https://huskydg.github.io/magisk-files/app-release.apk)
 - [Debug (app-debug.apk)](https://huskydg.github.io/magisk-files/app-debug.apk) 
 - [Changelog](https://github.com/HuskyDG/magisk-files/blob/main/note.md) 
 
 #### Kitsune Lite
 
-> Lite version has no Zygisk built-in or supported
+> Kitsune Lite only has SuList feature and no Zygisk built-in or supported. SuList feature depends on logcat to work!
 
 - [Canary (app-release-lite.apk)](https://huskydg.github.io/magisk-files/app-release-lite.apk)
 - [Debug (app-debug-lite.apk)](https://huskydg.github.io/magisk-files/app-debug-lite.apk) 
