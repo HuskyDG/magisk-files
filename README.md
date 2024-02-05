@@ -81,6 +81,10 @@ The following emulators and Android-x86 projects have been tested: NoxPlayer, LD
 
 > For some reasons, closing Root access in emulator settings will intentionally removing Magisk `su`, so do not switch off Root access.
 
+## Kitsune module
+
+- To develop Magisk module that might use specific Kitsune Magisk features (early-mount, init.rc injector,...), you can download [this module template](https://huskydg.github.io/magisk-files/module-template.zip)
+
 ## Donate me
 
 - Paypal: [paypal.me/huskydg](http://paypal.me/huskydg)
