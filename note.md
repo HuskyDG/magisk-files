@@ -1,6 +1,8 @@
-## R65B8FE82-kitsune (26404)
+## R65C0A20A-kitsune (27001)
 
-- Do not reset peer group of `/apex`, to avoid introducing abnormal environment detection
+- Synchronize with upstream to 154121f (27001)
+- Disable magisk app signature verification
+- Support Magic mount for more partitions
 
 If you want to read changelog of previous builds, please visit [Release page](https://github.com/HuskyDG/magisk-files/releases)
 
@@ -20,16 +22,16 @@ Kitsune 26404+ has changed the mounting `su` location from `/system/bin` to `/ap
 - [App] Add biometric authentication back
 - [General] Check full path of `init.rc`
 - [General] Grant root to shell by default (for debug build)
+- [General] Disable magisk app signature verification
+- [Module] Support Magic mount for more partitions
 
 ### Magisk upstream level
 
-- HEAD commit: 65207f96
+- HEAD commit: 154121f
 
-## Magisk (65207f96) (26404)
+## Magisk (3d91a561) (27001)
 
-- [SEPolicy] Update libsepol to properly set some policy config bits
-- [MagiskBoot] Support compressing `init` so Magisk is installable on devices with small boot partitions
-- [ResetProp] Add new wait for property feature `resetprop -w`
+- Minor bug fixes
 
 ## Diffs to v26.4
 
@@ -37,3 +39,4 @@ Kitsune 26404+ has changed the mounting `su` location from `/system/bin` to `/ap
 - [Zygisk] Support new signature introduced in U QPR2
 - [SEPolicy] Update libsepol to properly set some policy config bits
 - [MagiskBoot] Support compressing `init` so Magisk is installable on devices with small boot partitions
+- [ResetProp] Add new wait for property feature `resetprop -w`

@@ -1,7 +1,7 @@
 {
   "magisk": {
-    "version": "R65B8FE82-kitsune",
-    "versionCode": "26404",
+    "version": "R65C0A20A-kitsune",
+    "versionCode": "27001",
     "link": "https://github.com/HuskyDG/magisk-files/raw/main/app-debug.apk",
     "note": "https://github.com/HuskyDG/magisk-files/raw/main/note.md"
   },
