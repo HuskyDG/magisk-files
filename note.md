@@ -1,3 +1,7 @@
+## R65C0CF63-kitsune (27001)
+
+- Minor changes
+
 ## R65C0A20A-kitsune (27001)
 
 - Synchronize with upstream to 154121f (27001)
