@@ -1,18 +1,13 @@
-## R65C0CF63-kitsune (27001)
+## R65C33E4F-kitsune (27001)
 
-- Minor changes
-
-## R65C0A20A-kitsune (27001)
-
-- Synchronize with upstream to 154121f (27001)
-- Disable magisk app signature verification
-- Support Magic mount for more partitions
+- No longer change mounting `su` path to `/apex/com.android.runtime/bin` since it breaks some superuser apps
+- MagiskSU will not mounted until boot completed.
+- Make tmpfs mount of Magic mount shared
+- Revert some experimental changes.
 
 If you want to read changelog of previous builds, please visit [Release page](https://github.com/HuskyDG/magisk-files/releases)
 
 ### Diffs to official Magisk
-
-Kitsune 26404+ has changed the mounting `su` location from `/system/bin` to `/apex/com.android.runtime/bin`. This is to reduce bind mount. For most apps (that don't change/hardcode `PATH` variable), this change should not break anything. An known app is Termux which hardcode `PATH` might fail to locate `su`, you can call `/debug_ramdisk/su`.
 
 - [App] Added a new feature to install Magisk into `/system` partition for emulators that do not have a boot image.
 - [Zygisk] Changed the method of loading Zygisk to ptrace init implementation (required Android 8+). The implementation comes from [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext). This method does not need to change any property and is more compatible with some emulators that ignore `ro.dalvik.vm.native.bridge` property.
@@ -20,7 +15,6 @@ Kitsune 26404+ has changed the mounting `su` location from `/system/bin` to `/ap
 - [General] Support deleting file by using indicated whiteout character device, similar to `overlayfs`
 - [Zygisk] Added support for GrepheneOS Android 14, a privacy and security focused mobile OS with Android app compatibility. This is because the official Magisk does not support it.
 - [General] Restored support for devices with no selinux support, which was removed by the official Magisk. This allows users to use Magisk on devices that do not have selinux enabled in kernel.
-- [Module] Cancel the writable exception for `/system/etc/hosts`
 - [General] Update resetprop to avoid increasing serial counter for read-only properties
 - [Module] Mounting module files to system no longer need mirrors
 - [App] Add biometric authentication back
